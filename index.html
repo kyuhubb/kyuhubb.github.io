@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>kyuhubb</title>
+</head>
+<body>
+	<div class='tt' id='kyuhub'><h1>Kyuhubb</h1></div>
+	<div class='tt' id='el1'>
+		<h1>Dictionnaires</h1>
+		<a href='https://jisho.org/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">jisho</a>
+		<a href='https://jpdb.io/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">jpdb</a>
+		<a href='https://sakura-paris.org/dict/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">sakura-paris</a>
+		<a href='https://www.jlect.com/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">jlect</a>
+		<a href='https://www.weblio.jp/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">weblio</a>
+		<a href='http://honyakustar.com/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">honyakustar</a>
+		<a href='https://www.dictionnaire-japonais.com' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">dictionnaire-japonais</a>
+	</div>
+	<div class='tt' id='el2'>
+		<h1>Light Novels</h1>
+		<a href='https://itazuraneko.neocities.org/library/shousetu.html' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">itazuraneko</a>
+		<a href='https://boroboro.neocities.org/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">boroboro</a>
+		<a href='https://kakuyomu.jp/publication/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">kakuyomi</a>
+	</div>
+
+	<div id="info">
+		<h1 id='t-info'>informations</h1>
+		<p id='c-info'>survolez in site web avec votre souris pour afficher des informations le concernant</p>
+	</div>
+
+	<div class='tt' id='el4'>
+		<h1>Ressources pédagogiques</h1>
+		<a href='https://www.imabi.net/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">imabi</a>
+		<a href='https://jlptsensei.com/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">jlptsensei</a>
+		<a href='https://www.erin.jpf.go.jp/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">erin's challenge</a>
+		<a href='https://tsunagarujp.bunka.go.jp/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">tsunagarujp</a>
+		<a href='https://www.nhk.or.jp/lesson/english/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">nhk easy japanese</a>
+		<a href='https://archive.org/details/Genki/Genki%20-%20Elementary%20Japanese%20I/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">genki elementary</a>
+	</div>
+
+	<div class='tt' id='el5'>
+		<h1>Mangas Raw</h1>
+		<a href='https://welovemanga.one/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">welovemanga</a>
+		<a href='https://beta.lovehug.net/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">lovehug</a>
+		<a href='https://klmag.net/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">klmag</a>
+		<a href='https://rawkuma.com/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">rawkuma</a>
+		<a href='https://hachimanga.com/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">hachimanga</a>
+		<a href='https://dlraw.net/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">dlraw</a>
+		<a href='http://dl-zip.com/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">dl-zip</a>
+		<a href='http://jraws.net/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">jraws</a>
+		<a href='https://manga-zip.info/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">manga-zip.info</a>
+		<a href='https://manga-zip.net/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">manga-zip.net</a>
+		<a href='http://13dl.net/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">13dl.net</a>
+		<a href='https://comic.pixiv.net/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">pixiv comic</a>
+	</div>
+
+	<div class='tt' id='el6'>
+		<h1>Subs Japonaises</h1>
+		<a href='https://itazuraneko.neocities.org/library/sub.html' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">itazuraneko</a>
+		<a href='https://kitsunekko.net/dirlist.php?dir=subtitles%2Fjapanese%2F' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">kitsunekko</a>
+		<a href='https://animelon.com/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">animelon</a>
+	</div>
+
+
+	<div class='tt' id='el7'>
+		<h1>Phrases Exemples</h1>
+		<a href='http://yourei.jp/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">yourei</a>
+	</div>
+
+	<div class='tt' id='el8'>
+		<h1>Prononciation</h1>
+		<a href='https://forvo.com/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">forvo</a>
+		<a href='https://youglish.com/japanese' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">youglish</a>
+	</div>
+
+
+	<div class='tt' id='el9'>
+		<h1>Divers</h1>
+		<a href='https://nyaa.si/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">nyaa</a>
+		<a href='https://www.ggbases.com/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">ggbases(18+)</a>
+		<a href='https://www.tokyotosho.info/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">tokyotosho(18+)</a>
+	</div>
+
+	<div class='tt' id='el10'>
+		<h1>Quiz</h1>
+		<a href='http://nandoku.php.xdomain.jp/ja/exam.php?class=6' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">nandoku</a>
+		<a href='http://nandoku.php.xdomain.jp/ja/play-class.php?class=6' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">nandoku - kanken</a>
+	</div>
+
+	<div class='tt' id='el11'>
+		<h1>Créations originales</h1>
+		<a href=':null'>à venir</a>
+	</div>
+
+
+</body>
+
+<script>
+	let tinfo = document.getElementById('t-info');
+	let cinfo = document.getElementById('c-info');
+	let infweb = 'none';
+	let infcont = 'none';
+
+	function getinf(webinf){
+		infweb = webinf;
+		switch(infweb){
+
+			case 'pixiv comic':
+			infcont = '• section dédiée aux mangas partiellement ou totalement disponibles gratuitement';
+			break
+
+
+			case 'kakuyomi':
+			infcont = '• light novels amateurs<br><br>• les LN postés ayants pour origine Kakuyomi et adaptés en livre, anime, jeux-vidéo également disponible gratuitement';
+			break
+
+			case 'yourei':
+			infcont = '• recherche phrases exemples';
+			break
+
+			case 'ggbases(18+)':
+			infcont = '• torrents douteux (VN 18+ ?)';
+			break
+
+			case 'tokyotosho(18+)':
+			infcont = '• divers torrents, principalement 18+';
+			break
+
+			case 'genki elementary':
+			infcont = '• genki niveau élémentaire I et II (EN)';
+			break
+
+			case 'nandoku':
+			infcont = '• quiz vocabulaire, lectures difficiles';
+			break
+
+			case 'nandoku - kanken':
+			infcont = '• quiz kanken';
+			break
+
+			case 'kitsunekko':
+			infcont = '• sous-titres japonais à télécharger uniquement'
+			break
+
+			case 'animelon':
+			infcont = "• site de streaming d'anime avec sous-titres japonais, romaji, hiragana, katakana, français";
+			break
+
+			case 'youglish':
+			infcont = "• renvoie un passage de vidéo youtube sur contenant le mot recherché";
+			break
+
+			case 'forvo':
+			infcont = "• prononciation d'un mot recherché par des natifs";
+			break
+
+			case 'nyaa':
+			infcont = '• site de torrents en lien avec le japonais';
+			break
+
+			case 'jisho':
+			infcont = '• dictionnaire en ligne (JPーEN)';
+			break
+
+			case 'honyakustar':
+			infcont = '• dictionnaire supposé pour traducteurs (JPーEN)';
+			break
+
+			case 'jpdb':
+			infcont = '• dictionnaire en ligne (JPーEN)<br><br>• classification de ligth novels par difficulté<br><br>• gestion et révision de decks<br><br>• decks vocabulaire spécifique à une oeuvre';
+			break
+
+			case 'sakura-paris':
+			infcont = '• large compilation de dictionnaires en ligne';
+			break
+
+			case 'jlect':
+			infcont = '• dictionnaire en ligne spécialisé en dialectes (JPーEN)';
+			break
+
+			case 'weblio':
+			infcont = '• dictionnaire japonais only en ligne';
+			break
+
+			case 'itazuraneko':
+			infcont = '• grande collection de light novels au format texte<br><br>• sous-titres japonais à télécharger uniquement<br><br>• nombreuses autres ressources';
+			break
+
+			case 'boroboro':
+			infcont = '• collection de light novels au format texte';
+			break
+
+			case 'imabi':
+			infcont = '• cours de grammaire en profondeur';
+			break
+
+			case 'jlptsensei':
+			infcont = '• cours de grammaire ultra-simplifiés';
+			break
+
+			case "erin's challenge":
+			infcont = "• vidéos avec mise en situation pour compréhension à l'audition avec une pointe de comédie";
+			break
+
+			case "nhk easy japanese":
+			infcont = "• cours de japonais de la NHK avec courts sketchs en images avec doublage<br><br>• disponible en français";
+			break
+
+			case "tsunagarujp":
+			infcont = "• vidéos avec mise en situation pour compréhension à l'audition destiné à l'intégration des étrangers résidents au Japon (pas drôle)";
+			break
+
+			case 'dictionnaire-japonais':
+			infcont = '• dictionnaire franco-japonais en ligne';
+			break
+
+			default:
+			infcont = 'aucune information';
+		}
+
+		tinfo.innerHTML = infweb;
+		cinfo.innerHTML = infcont;
+	}
+
+	function delinfo(){
+		tinfo.innerHTML = 'informations';
+		cinfo.innerHTML = "survolez in site web avec votre souris pour afficher des informations le concernant";	
+	}
+</script>
+</html>

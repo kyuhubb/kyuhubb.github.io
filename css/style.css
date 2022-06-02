@@ -1,0 +1,94 @@
+html{
+	background: #000;
+}
+
+body{
+	padding-left: 2vw;
+	overflow-x: hidden;
+	font-family: consolas;
+	margin: 0;
+	display: grid;
+	grid-template-areas: 
+	'kyuhub kyuhub'
+	'el1 el2'
+	'el4 el5'
+	'el6 el7'
+	'el8 el9'
+	'el10 el11'
+	;
+	grid-template-columns: 33vw 33vw;
+}
+
+#kyuhub{
+	grid-area: kyuhub;
+}
+
+#el1{
+	grid-area: el1;
+}
+
+#el2{
+	grid-area: el2;
+}
+
+#el4{
+	grid-area: el4;
+}
+
+#el5{
+	grid-area: el5;
+}
+
+h1{
+	font-size: 1.3em;
+}
+
+#info{
+	grid-area: el3;
+	color: white;
+	background: deepskyblue;
+	color: white;
+	padding: 12px;
+	text-align: center;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 27vw;
+	height: 97vh;
+}
+
+.tt{
+	border: 1px solid #222;
+	margin: 0;
+	display: inline-block;
+	background: #111;
+	padding: 12px;
+	text-align: center;
+}
+
+h1{
+	color: white;
+}
+
+a{
+	padding: 2px;
+	font-size: 1.2em;
+	display: block;
+	color: deepskyblue;
+}
+
+a:hover{
+	color: deeppink;
+	background: #151515;
+}
+
+@media (max-width: 700px){
+	#info{
+		width: 25vw;
+	}
+
+	body{
+		padding: 0;
+		font-size: 0.8em;
+	}
+}
