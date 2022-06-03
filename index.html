@@ -97,6 +97,10 @@
 		<a href='https://kyuhubb.github.io/reibun' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">reibun</a>
 	</div>
 
+	<div class='tt' id='el11'>
+		<h1>Iso Psp</h1>
+			<a href='https://www.mediafire.com/file/bfukw4w9ckxnvti/Kyoto_Daigaku_Atsuji_Tetsuji_Kyouju_Kanshuu_-_Zaidan_Houjin_Nihon_Kanji_Nouryoku_Kentei_Kyoukai_Kyouryoku_-_Kanji_Trainer_Portable_%2528Japan%2529_%2528v1.01%2529.zip/file' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">kanji trainer</a>
+		</div>
 
 </body>
 
@@ -110,12 +114,16 @@
 		infweb = webinf;
 		switch(infweb){
 
+			case 'kanji trainer':
+			infcont = '• jeu pour se préparer au 漢字能力検定 (kanji nouryoku kentei) 2006)';
+			break
+
 			case 'reibun':
 			infcont = '• recherche phrases exemples tirés de light novels par expression exacte. (possibilité d\'associer 2 expressions)<br><br>• outil expérimental pour estimer la difficulté des LN également disponible';
 			break
 
 			case 'jitogus':
-			infcont = '• compilation de dictionnaires à télécharger pour utilisation offline<br><br>• recherche par moteur de recherche<br><br>•en bêta, ne touchez à rien lors des chargements'
+			infcont = '• compilation de dictionnaires à télécharger pour utilisation offline<br><br>• recherche par moteur de recherche<br><br>• en bêta, ne touchez à rien lors des chargements'
 			break
 
 			case 'cardogus':
