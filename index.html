@@ -67,6 +67,7 @@
 	<div class='tt' id='el7'>
 		<h1>Phrases Exemples</h1>
 		<a href='http://yourei.jp/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">yourei</a>
+		<a href='https://kyuhubb.github.io/reibun' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">reibun</a>
 	</div>
 
 	<div class='tt' id='el8'>
@@ -91,7 +92,9 @@
 
 	<div class='tt' id='el11'>
 		<h1>Créations originales</h1>
-		<a href=':null'>à venir</a>
+		<a href='https://kyuhubb.github.io/cardogus' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">cardogus</a>
+		<a href='https://www.mediafire.com/file/x8yza7jegwnc28w/Jitogus.rar/file' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">jitogus</a>
+		<a href='https://kyuhubb.github.io/reibun' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">reibun</a>
 	</div>
 
 
@@ -106,6 +109,18 @@
 	function getinf(webinf){
 		infweb = webinf;
 		switch(infweb){
+
+			case 'reibun':
+			infcont = '• recherche phrases exemples tirés de light novels par expression exacte. (possibilité d\'associer 2 expressions)<br><br>• outil expérimental pour estimer la difficulté des LN également disponible';
+			break
+
+			case 'jitogus':
+			infcont = '• compilation de dictionnaires à télécharger pour utilisation offline<br><br>• recherche par moteur de recherche<br><br>•en bêta, ne touchez à rien lors des chargements'
+			break
+
+			case 'cardogus':
+			infcont = '• révision et gestion de deck<br><br>• style anki/kotoba<br><br>• supporte les notes<br><br>• création de cartes multiples sur base d\'un memo<br><br>• transfert de cartes entre decks<br><br>• decks sauvegardés sur l\'appareil uniquement<br><br>• plus encore...';
+			break
 
 			case 'pixiv comic':
 			infcont = '• section dédiée aux mangas partiellement ou totalement disponibles gratuitement';
