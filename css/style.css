@@ -11,10 +11,11 @@ body{
 	grid-template-areas: 
 	'kyuhub kyuhub'
 	'el1 el2'
-	'el4 el5'
-	'el6 el7'
-	'el8 el9'
-	'el10 el11'
+	'el3 el4'
+	'el5 el6'
+	'el7 el8'
+	'el9 el12'
+	'el11 el10'
 	;
 	grid-template-columns: 33vw 33vw;
 }
@@ -37,6 +38,34 @@ body{
 
 #el5{
 	grid-area: el5;
+}
+
+#el6{
+	grid-area: el6;
+}
+
+#el7{
+	grid-area: el7;
+}
+
+#el8{
+	grid-area: el8;
+}
+
+#el9{
+	grid-area: el9;
+}
+
+#el10{
+	grid-area: el10;
+}
+
+#el11{
+	grid-area: el11;
+}
+
+#el12{
+	grid-area: el12;
 }
 
 h1{
