@@ -125,7 +125,13 @@
 	<div class='tt' id='el12'>
 		<h1>Visual Novel</h1>
 			<a href='https://www.freem.ne.jp/win/game/1438' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">Houchou-san no Uwasa</a>
-		</div>
+	</div>
+
+	<div class='tt' id='el13'>
+		<h1>Hololive</h1>
+			<a href='https://store.steampowered.com/app/1178050/_/?l=japanese' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">狐の旅路 (kitsune no tabiji)</a>
+			<a href='' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">Hololive error</a>
+	</div>
 
 </body>
 
@@ -138,6 +144,14 @@
 	function getinf(webinf){
 		infweb = webinf;
 		switch(infweb){
+
+			case 'Hololive error':
+			infcont = '• Manga hybride officiellement créé par Hololive<br><br>• Dubbé par les talents d\'Hololive<br><br>• Subs japonaises<br><br>• Subs anglaises disponible<br><br>• Court mais intense (25 chapitres)<br><br>• japonais abordable (1er chapitre légèrement plus difficile)';
+			break
+
+			case '狐の旅路 (kitsune no tabiji)':
+			infcont = "• jeu Hololive non-officiel<br><br>traduit depuis le chinois mandarin<br><br>• japonais abordable<br><br>• disponible gratuitement sur Steam<br><br>• Créé avec RPG maker"
+			break
 
 			case 'cdromance':
 			infcont = "• jeux japonais pour émulateur psp";

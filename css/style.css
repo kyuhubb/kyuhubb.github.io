@@ -16,12 +16,17 @@ body{
 	'el7 el8'
 	'el9 el12'
 	'el11 el10'
+	'el13 el13'
 	;
 	grid-template-columns: 33vw 33vw;
 }
 
 #kyuhub{
 	grid-area: kyuhub;
+}
+
+#el13{
+	grid-area: el13;
 }
 
 #el1{
