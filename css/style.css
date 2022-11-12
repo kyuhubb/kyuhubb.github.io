@@ -80,7 +80,7 @@ h1{
 #info{
 	grid-area: el3;
 	color: white;
-	background: deepskyblue;
+	background: mediumpurple;
 	color: white;
 	padding: 12px;
 	text-align: center;
@@ -108,7 +108,7 @@ a{
 	padding: 2px;
 	font-size: 1.2em;
 	display: block;
-	color: deepskyblue;
+	color: mediumpurple;
 }
 
 a:hover{
