@@ -107,6 +107,7 @@
 		<h1>Kyu's Originals</h1>
 		<a href='https://kyuhubb.github.io/cardogus' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">cardogus</a>
 		<a href='https://www.mediafire.com/file/l9hvoqwoa2n9kkx/Jitogus.zip/file' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">jitogus</a>
+		<a href='https://kyuhubb.github.io/reibun/bunshake' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">bunshake</a>
 	</div>
 
 	<div class='tt' id='el11'>
@@ -140,6 +141,10 @@
 	function getinf(webinf){
 		infweb = webinf;
 		switch(infweb){
+
+			case 'bunshake':
+			infcont = '• Experimental tool dedicated to analysis of japanese text difficulty.';
+			break
 
 			case 'Hololive error':
 			infcont = '• Hybrid manga officially created by Hololive<br><br>• Dubbed by the talents of Hololive<br><br>• japanese subs<br><br>• english subs avaible<br><br>• 25 chapters in total<br><br>• easy japanese (1st chapter a bit more harder)';
