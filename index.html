@@ -18,6 +18,7 @@
 		<a href='http://honyakustar.com/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">honyakustar</a>
 		<a href='https://www.dictionnaire-japonais.com' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">dictionnaire-japonais</a>
 		<a href='https://jibiki.fr/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">jibiki</a>
+		<a href='http://thejadednetwork.com/sfx/' onmouseout="delinfo()" onmouseover="getinf(this.innerHTML)">thejadenetwork</a>
 	</div>
 	<div class='tt' id='el2'>
 		<h1>Light Novels</h1>
@@ -141,6 +142,10 @@
 	function getinf(webinf){
 		infweb = webinf;
 		switch(infweb){
+
+		case 'thejadenetwork':
+			infcont = '• dictionary for japanese SFX';
+			break
 
 			case 'bunshake':
 			infcont = '• Experimental tool dedicated to analysis of japanese text difficulty.';
